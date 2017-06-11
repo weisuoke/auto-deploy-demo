@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jshint hello.js",
-    "lint": "npm run lint && mocha hello.test.js"
+    "lint": "jshint hello.js",
+    "test": "npm run lint && mocha hello.test.js"
   },
   "keywords": [],
   "author": "",
