@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jshint hello.js"
+    "test": "jshint hello.js",
+    "lint": "npm run lint && mocha hello.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jshint": "^2.9.4"
+    "chai": "^4.0.2",
+    "jshint": "^2.9.4",
+    "mocha": "^3.4.2"
   }
 }
