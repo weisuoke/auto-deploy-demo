@@ -1,5 +1,8 @@
 language: node_js
 node_js:
     - "8.0"
+# 缓存，可以节省集成时间
+cache:
+    apt: true
 script:
     - npm run test
